@@ -1,0 +1,716 @@
+.logo {
+   height: 32px;
+width: 268px;
+margin-top: 18px;
+margin-right: 60px;
+
+}
+ul {
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+     margin-top: 10px; 
+     font-weight: 450;
+     
+     background-color: #ffff;
+     position: fixed; 
+     top: 0;
+     width: 100%;
+     height: 70px;
+     bottom: 555px;
+     margin-top: -2px;
+    
+}
+
+.mainmenu{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 20px;
+    /* width: 250px; */
+    
+    
+    }
+    .mainmenuitems {
+       
+        margin-left: 20px;
+       text-decoration: none, solid, rgb(171, 171, 171);
+        font-family: Roboto, Arial, sans-serif;
+        color: #ababab;
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: -0px;
+        margin-right: -5px;
+        justify-content: space-around;
+        width: 65px;
+        
+    }
+    .submenu{
+        display: none;
+        position: absolute;
+        color: #ababab;
+        background-color: white;
+        margin-left: -100px;
+        width: 200px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .mainmenu :hover .submenu{
+        display: block;
+    }
+    .mainmenuitems:hover{
+        color:#00C3A5;
+    }
+    #about{
+        color:#00C3A5 ;
+    }
+    .submenu :hover{
+        color:#00C3A5 ;
+        background-color: #e6f0ee;
+    }
+   .submenuitem{
+    color:#ababab ;
+    margin-left: -32px;
+    height: 45px;
+    width: 220px;
+    margin-top: 5px;
+    
+   }
+   .titre {
+       margin-top: 30px;
+       text-align: center;
+       justify-content: space-around;
+       letter-spacing:0.2px;
+       font-family: work sans, Arial, sans-serif;
+       Font-weight: 350;
+color: #07B3AD;
+       Line-height: 40.2px;
+       margin-top: 10px;
+       margin-right: -20px;
+      
+       
+   }
+   .logotitre {
+       height: 39px;
+       width: 40px;
+       margin-top: 70px;
+   }
+   .pargh{
+       display: flex;
+       justify-content: space-around;
+   }
+   .p1{
+    height: 112px;
+    width: 478px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #747474;
+    margin-left: 170px;
+    }
+    .p2{
+      height: 112px;
+      width: 478px;
+      font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #747474;
+    margin-right: 150px;
+      }
+      .boxes{
+          display: flex;
+          justify-content: space-around;
+      }
+      .box1{
+          height: 345px;
+          width: 312px;
+          background-color: #19D1B8;
+          border: #19D1B8;
+          border-radius: 10px;
+          text-align: left;
+           margin-left: 160px; 
+         
+      }
+.pa{
+    font-family: work sans, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -17px;
+    margin-bottom: 100px;
+}
+.pat{
+    font-family: work sans, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -10px;
+
+}
+.logo1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.box2{
+    height: 345px;
+    width: 312px;
+    background-color: #508FE2;
+    border: #19D1B8;
+    border-radius: 10px;
+    text-align: left;
+      margin-left:0px;  
+   
+}
+.pdo{
+font-family: work sans, Arial, sans-serif;
+font-size: 24px;
+font-weight: bold;
+line-height: 28.8px;
+color: rgb(255, 255, 255);
+margin-left: 30px;
+margin-right: 30px;
+margin-top: -17px;
+margin-bottom: 100px;
+}
+.par{
+font-family: work sans, Arial, sans-serif;
+font-size: 26px;
+font-weight: bold;
+line-height: 50px;
+color: rgb(255, 255, 255);
+margin-left: 30px;
+margin-right: 30px;
+margin-top: -10px;
+
+}
+.logo2{
+margin-top: 30px;
+margin-left: 30px;
+}
+.box3{
+    height: 345px;
+    width: 312px;
+    background-color: #323C48;
+    border: #19D1B8;
+    border-radius: 10px;
+    text-align: left;
+    margin-right: 150px;
+    
+   
+}
+.pc{
+font-family: work sans, Arial, sans-serif;
+font-size: 24px;
+font-weight: Bold;
+line-height: 28.8px;
+color: rgb(255, 255, 255);
+margin-left: 30px;
+margin-right: 30px;
+margin-top: -20px;
+margin-bottom: 100px;
+}
+.par1{
+font-family: work sans, Arial, sans-serif;
+font-size: 26px;
+font-weight: bold;
+line-height: 50px;
+color: rgb(255, 255, 255);
+margin-left: 30px;
+margin-right: 30px;
+margin-top: -10px;
+
+}
+.logo3{
+margin-top: 30px;
+margin-left: 30px;
+}
+#spec{
+    margin-top: -30px;
+    
+}
+
+#fp{
+    background-color: #19D1B8;
+    border-color: transparent;
+    margin-left: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color:  rgb(255, 255, 255);
+    text-decoration: underline;
+    
+}
+#fd{
+    background-color: #508FE2;
+    border-color: #508FE2;
+    margin-left: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color:  rgb(255, 255, 255);
+    text-decoration: underline;
+}
+#fc1{
+    background-color: #323C48;
+    border-color: #323C48;
+    margin-left: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color:  rgb(255, 255, 255);
+    text-decoration: underline;
+}
+#fc2{
+    background-color: #323C48;
+    border-color: #323C48;
+    margin-left: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color:  rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+select option{
+    color: #747474;
+    background-color: white;
+}
+.box1:hover .pa  {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28.8px;
+   color: #747474;
+   
+}
+.boxs2{
+    display: flex;
+    justify-content: space-around;
+    }
+    .box11{
+        height: 102px;
+        width: 280px;
+        font-family: work sans, Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 40px;
+        color: rgb(0, 179, 155);
+        margin-left:80px;
+    }
+    .logobox2{
+        height: 109px;
+        width: 700px;
+        margin-right: 65px;
+        word-spacing: 23px;
+        margin-top: 30px;
+    }
+   .pbox1{
+       margin-left: 50px;
+       line-height: 32px;
+   }
+.boxx3{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DAF7F6;
+    width: 1400px;
+}
+
+
+.leader{
+    height: 250px;
+    width: 228.75px;
+    background-color: white;
+    text-align: center;
+     border-radius: 5px;
+}
+
+.doctorss{
+    height: 250px;
+    width: 228.75px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.appoit{
+    height: 250px;
+    width: 228.75px;
+    background-color: white ;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+.divpatients{
+    height: 250px;
+    width: 228.75px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+     border-radius: 5px;
+}
+.txtlogo{
+    display: block;
+    justify-content: space-around;
+    height: 201px;
+    width:497.5px ;
+}
+.divleftt{
+    display: block;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.right{
+    display: block;
+    margin-top: 20px;
+    margin-right: 220px;
+    
+}
+.titre2{
+    font-family: work sans, Arial, sans-serif ;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+    height: 88.5px;
+    text-align: left;
+    margin-left: 170px;
+}
+.divleft{
+    margin-top: 50px;
+    margin-left: 170px;
+ }
+ .leader img {
+     margin-top: 20px;
+ }
+ .pleader{
+     font-family: work sans, arial, sans-serif;
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 31.2px;
+     color: rgb(0, 179, 155);
+     text-align: center;
+     height: 62px;
+     width: 198px;
+ }
+ .listcountry{
+    font-family: roboto, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    height: 62px;
+    width: 198px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.divpatients img {
+    margin-top: 20px;
+}
+.ppatients{
+    font-family: work sans, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    height: 62px;
+    width: 198px;
+}
+.visit{
+   font-family: roboto, arial, sans-serif;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16.9px;
+   color: rgb(116, 116, 116);
+   text-align: center;
+   height: 62px;
+   width: 198px;
+   margin-left: 15px;
+   margin-top: -10px;
+}
+.appoit img {
+    margin-top: 20px;
+}
+.pappoi{
+    font-family: work sans, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    height: 62px;
+    width: 198px;
+}
+.booked{
+   font-family: roboto, arial, sans-serif;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16.9px;
+   color: rgb(116, 116, 116);
+   text-align: center;
+   height: 62px;
+   width: 198px;
+   margin-left: 15px;
+   margin-top: -10px;
+}
+.doctorss img {
+    margin-top: 20px;
+}
+.titdoc{
+    font-family: work sans, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    height: 62px;
+    width: 198px;
+}
+.pdoc{
+   font-family: roboto, arial, sans-serif;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 16.9px;
+   color: rgb(116, 116, 116);
+   text-align: center;
+   height: 62px;
+   width: 198px;
+   margin-left: 15px;
+   margin-top: -10px;
+}
+.desc{
+    font-family: roboto, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    height: 48px;
+    width: 415px;
+    margin-left: 170px;
+    
+}
+.improve{
+    display: block;
+    text-align: center;
+    
+   
+      
+}
+.improve h2 {
+    font-family: work sans, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    color: rgb(0, 179, 155);
+}
+.improve p{
+    font-family: roboto, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+   height: 72px;
+   width: 460px;
+   margin-left: 480px;
+   text-align:center;  
+   
+}
+#biglogo{
+    margin-bottom: -10px;
+}
+.pictures{
+    height: 1000px;
+   width: 105%;
+   justify-content: space-around;
+    
+    
+    
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn{
+    background-color: #16A1F0;
+    height: 30px;
+    width: 103px;
+     float: right; 
+     margin-top: -50px;
+     margin-right: 20px;
+     font-family: roboto, arial, sans-serif;
+     font-size: 10px;
+     font-weight: 500;
+     line-height: 10px;
+     color: rgb(255, 255, 255);
+     border-radius: 5px;
+     border: #1662C6;
+    
+}
+.warsaw{
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    
+    height: 350px;
+    width: 311px;
+    border-width: thin;
+
+}
+.munich{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: hidden;
+    height: 350px;
+    width: 311px;
+}
+.istanbul{
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: hidden;
+    height: 350px;
+    width: 311px;
+}
+.bologna{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: hidden;
+    height: 350px;
+    width: 311px;
+}
+.section2{
+    display: flex;
+    margin-left: 215px;
+   
+}
+.mexico-city{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: hidden;
+    height: 350px;
+    width: 311px;
+}
+.barcelona{
+    background-color: white;
+    border-radius: 5px;
+    border: hidden;
+    height: 350px;
+    width: 311px;
+
+}
+.rome{
+    background-color: white;
+    border-radius: 5px;
+    border: hidden;
+    height: 350px;
+    width: 311px;
+
+}
+.curitiba{
+    background-color: white;
+    border-radius: 5px;
+    border: hidden;
+    height: 350px;
+    width: 311px;
+
+}
+.section1 p{
+    font-family: roboto, arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(116, 116, 116);
+    margin-left: 20px;
+}
+.section2 .btn{
+    margin-top: -50px;
+}
+.section2 p{
+    font-family: roboto, arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(116, 116, 116);
+    margin-left: 20px;
+}
+.section1 :hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.section2 :hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.section1 :hover img  {
+    box-shadow: none;
+
+}
+.section1 :hover .btn  {
+    box-shadow: none;
+
+}
+.section1 :hover p  {
+    box-shadow: none;
+
+}
+.section2 :hover img  {
+    box-shadow: none;
+
+}
+.section2 :hover .btn  {
+    box-shadow: none;
+
+}
+.section2 :hover p  {
+    box-shadow: none;
+
+}
+.pictures img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.last{
+    margin-top:230px;
+    display: block;
+    text-align: center;
+
+}
+.last p{
+    font-family: work sans, arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    color: rgb(51, 51, 51);
+    margin-top: -60px;
+}
+#last{
+    height: 40px;
+    width: 210px;
+    background-color: #16A1F0;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    font-family: roboto, arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+}
